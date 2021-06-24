@@ -60,9 +60,6 @@ def pegar_mapper():
 def rollback(volume_grupo):
     os.system("vgreduce %s -a" % (volume_grupo))
 
-    asadadadsa
-    sdsdd
-
 
 if __name__ == '__main__':
     for i in xrange(4):
